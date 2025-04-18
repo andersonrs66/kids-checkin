@@ -1,0 +1,20 @@
+{
+    "kids": [
+        {
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgqaPZ6HpmxExPx5g_Rxgp8o0vPAdSCZcxMQ&s",
+            "nomeCrianca": "Carlos",
+            "responsavel": "Ana",
+            "telefone": "12345-6789",
+            "classeIcone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC4bWlVKkzXP6LoZLrSFnvH-4sAlTI7uQDMQ&s",
+            "classeNome": "Turma A"
+        },
+        {
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgqaPZ6HpmxExPx5g_Rxgp8o0vPAdSCZcxMQ&s",
+            "nomeCrianca": "Mariana",
+            "responsavel": "João",
+            "telefone": "98765-4321",
+            "classeIcone": "https://images.icon-icons.com/565/PNG/512/stars-bright_icon-icons.com_54249.png",
+            "classeNome": "Luminares"
+        }
+    ]
+}
