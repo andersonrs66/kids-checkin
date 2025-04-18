@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in</title>
+    <link rel="stylesheet" href="assets/stylesheet.css">
+</head>
+<body>
+
+    <div class="card">
+        <img src="assets/logo.png" alt="Logo">
+        <h2>Check in</h2>
+        <input type="text" placeholder="Nome do Kids">
+        <button onclick="abrirPopup()">Fazer Check-in</button>
+    </div>
+
+    <!-- Overlay e Popup -->
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <h2>Cadastro</h2>
+            <form>
+                <label>Nome do responsável:</label>
+                <input type="text" required>
+
+                <label>Telefone:</label>
+                <input type="tel" required>
+
+                <label>Nome da criança:</label>
+                <input type="text" required>
+
+                <label>Data de nascimento:</label>
+                <input type="date" required>
+
+                <label>Alguma restrição alimentar?</label>
+                <textarea rows="3"></textarea>
+
+                <label>Há algo sobre o desenvolvimento da criança que ajudaria no nosso acolhimento?</label>
+                <textarea rows="3"></textarea>
+
+                <label>A criança vai ao banheiro sozinha?</label>
+                <select>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+                <button type="button" class="close-btn" onclick="fecharPopup()">Fechar</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function abrirPopup() {
+            document.getElementById("overlay").style.display = "flex";
+        }
+
+        function fecharPopup() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
