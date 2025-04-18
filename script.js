@@ -1,3 +1,11 @@
+function abrirPopup() {
+    alert("Abrir popup de Check-in!");
+}
+
+function visualizarCadastros() {
+    alert("Mostrar lista de cadastros!");
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     const cardList = document.getElementById("card-list");
 
